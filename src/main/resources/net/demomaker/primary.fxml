@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.demomaker.PrimaryController">
+   <children>
+      <MenuBar fx:id="menuBar">
+         <Menu text="%key.file">
+            <items>
+               <MenuItem id="settings" mnemonicParsing="false" text="%key.settings" onAction="#openSettings" />
+            </items></Menu>
+         <Menu text="%key.edit" />
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </MenuBar>
+   </children>
+</AnchorPane>
